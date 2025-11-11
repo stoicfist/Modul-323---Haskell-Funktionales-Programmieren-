@@ -1,0 +1,44 @@
+# Haskell build and compilation artifacts
+dist
+dist-*
+cabal-dev
+*.o
+*.hi
+*.hie
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+
+# Profiling and event logs
+*.prof
+*.aux
+*.hp
+*.eventlog
+
+# Cabal and Stack work dirs
+.hpc
+.hsenv
+.cabal-sandbox/
+cabal.sandbox.config
+.stack-work/
+
+# Project-local files
+cabal.project.local
+cabal.project.local~
+.HTF/
+.ghc.environment.*
+
+# Emacs and editor-specific files
+*~
+\#*\#
+.\#*
+auto-save-list
+*.elc
+.tramp_history
+.emacs.desktop
+.emacs.desktop.lock
+
+# OS junk (just in case)
+.DS_Store
+Thumbs.db
